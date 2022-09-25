@@ -96,14 +96,14 @@
         background-color:#040404  hsl(0,0%,2%)rgb(4,4,4);
     }
     #image{
-        height: 350px;
-        width: 350px;
+        height: 500px;
+        width: 450px;
         margin: auto;
-        margin-left: 40%;
-        margin-top: -15%;
+        margin-left: 35%;
+        margin-top: -19%;
     }
     #image>img{
-        border-radius: 50%;  
+       border-radius: 25%;
         height: 100%;
         width: 100%;
     }
@@ -145,18 +145,19 @@
         width: 80%;
         margin: auto;
         margin-left: 12%;
-        display: flex;
-        justify-content:space-between;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
       margin-top: 3%;
     }
     #project>div{
   background-color:#222222;
   height: auto;
-  width: 49%;
+  width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 20px;
     }
-    .mySlides ,.mySlides1{display:none;}
+    .mySlides ,.mySlides1,.mySlides2{display:none;}
     .fade {
   animation-name: fade;
   animation-duration: 2s;
@@ -181,7 +182,7 @@
     }
 
     .stack{
-        height: 8%;
+        height: 7%;
         margin-left: 25%;
         display: flex;
         justify-content: space-around;
@@ -201,7 +202,7 @@
         margin-right: 7%;
     }
     .btn>button{
-       height: 30px;
+       height: auto;
         width: 20%;
         background-color: #040404;
         border-radius:10px
@@ -392,14 +393,14 @@ font-size: 16px;
         background-color:#040404  hsl(0,0%,2%)rgb(4,4,4);
     }
     #image{
-        height: 180px;
-        width: 180px;
+        height: 250px;
+        width: 250px;
         margin: auto;
         margin-left: 38%;
         margin-top: -15%;
     }
     #image>img{
-        border-radius: 60%;  
+        border-radius: 40%;  
         height: 100%;
         width: 100%;
     }
@@ -713,12 +714,12 @@ font-size: 16px;
         background-color:#040404  hsl(0,0%,2%)rgb(4,4,4);
     }
     #image{
-        height: 130px;
-        width: 130px;
+        height: 180px;
+        width: 180px;
         margin-left: 40%;
     }
     #image>img{
-        border-radius: 60%;  
+        border-radius: 40%;  
         height: 100%;
         width: 100%;
     }
@@ -1005,6 +1006,39 @@ font-size: 14px;
   <div id="social-network">
     <h1>Projects </h1>
    <div id="project">
+    <div>
+        <h1>Covid Vaccination Booking Application</h1>
+        <div class="w3-content w3-section" >
+            <img class="mySlides2 fade" src="/vac.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*O7hMcf3JLV6HoHqVUtOdpQ.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*JwwtqnZl570IhJb-cM_CMg.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*f08MP0ueV2O-x7Zj5Q9kbQ.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*uKoA0sViIGqgggNX5ye8NA.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*8J4wUL36X3W2bXXb-nsmLA.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*fKccwZuDBCcHUAimwsVP1Q.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*OfSa7Z4DkR8YU-p-hlzVGg.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*uw4PBtKGuldC-LJ8rF_jPg.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*82nXWc5o-WF7mr1gEoTIAQ.png" style="width:100%">
+            <img class="mySlides2 fade" src="https://cdn-images-1.medium.com/max/1000/1*JgZWPYyFJuNRd1dPH6J4qw.png" style="width:100%">
+            
+            
+          </div>
+          <p>Developed a Covid-19 Vaccination Booking Application REST API, which will perform all the fundamental CRUD operations of any Covid-19 Vaccine Application platform with user validation at every step. The Application contains
+            both Admin controller and user control.</p>
+         <div class="stack">
+            <div><img src="https://chiranjeev-thapliyal.vercel.app/svg/mysql-logo.svg" alt=""><p>MYSQL</p></div>
+            <div>  <img  src="https://www.vectorlogo.zone/logos/springio/springio-ar21.svg" alt=""><p></p></div>
+            <div><img src="https://chiranjeev-thapliyal.vercel.app/svg/amazon-web-services.svg" alt=""><p>AWS</p></div>
+         </div>
+         <div class="btn">
+                    <button><a href="https://github.com/Micheal-George/Covid_Vaccination_REST_API" target="_blank"><i class="fa-brands fa-github"></i><span>CODE</span></a></button>
+                    <button><a href="http://covidvaccinerestapi-env.eba-bt8ve3ux.ap-south-1.elasticbeanstalk.com/swagger-ui/#/" target="_blank"><i class="fa-brands fa-neos"></i><span>LIVE</span></a>
+                    </button>
+                    <button><a href="https://medium.com/@michealgeorge432/rest-api-for-covid-19-application-72a47923956f" target="_blank"><i class="fa-brands fa-medium"></i><span>BLOG</span></a></button>
+         </div>
+        </div>
+
+
           <div>
             <h1>Kalyan Jewellers Clone</h1>
             <div class="w3-content w3-section" >
@@ -1020,7 +1054,7 @@ font-size: 14px;
                 <img class="mySlides fade" src="https://miro.medium.com/max/875/1*c6wsEL-LPseTBeVOX2VOFA.png" style="width:100%">
                 <img class="mySlides fade" src="https://miro.medium.com/max/875/1*vqmMEDbe9C83WJYERjxFNA.png" style="width:100%">
               </div>
-              <p>Developed a clone of Kalyan Jewellers website. This website is a company website as well as it provide online shopping.Where customers can purchase gold with add to cart options and payment options. Also many filters where added for the customer convience for easy purchase </p>
+              <p>Developed a clone of Kalyan Jewellers website. This website is a company website as well as it provides online shopping, where customers can purchase gold with add-to-cart options and payment options. Also, many filters were there for the customer's convenience for easy purchase  </p>
              <div class="stack">
                 <div><img src="	https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt=""><p>HTML</p></div>
                 <div>  <img src="	https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt=""><p>CSS</p></div>
@@ -1048,7 +1082,7 @@ font-size: 14px;
                 <img class="mySlides1 fade" src="https://miro.medium.com/max/875/1*MBwZIakiAHpp52YmZSUhqA.png" style="width:100%">
                 <img class="mySlides1 fade" src="https://miro.medium.com/max/875/1*aX8XqeDI3Oe79mgcGqpOWw.png" style="width:100%">
               </div>
-              <p>Developed a clone of PluralSight website,  that offers a variety of video training courses for software developers. We have cloned the website and added almost every functionality same as of the site.Where student can purchase video cources with add cart options and payment options </p>
+              <p> Developed a clone of the PluralSight website, that offers a variety of video training courses for software developers. This website had the same functionality as an e-commerce site. Where a student can purchase video courses with add cart options and payment options </p>
               <div class="stack">
                 <div><img src="	https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt=""><p>HTML</p></div>
                 <div>  <img src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt=""><p>CSS</p></div>
@@ -1061,6 +1095,8 @@ font-size: 14px;
                 <button><a href="https://medium.com/@michealgeorge432/group-project-pluralsight-site-clone-2bc256b318bf" target="_blank"><i class="fa-brands fa-medium"></i><span>BLOG</span></a></button>
      </div>
           </div>
+
+          
    </div>
    <div id="skills">
         <h1>Skills & Interests</h1>
@@ -1139,6 +1175,22 @@ function showSlides1() {
   if (slideIndex1 > slides1.length) {slideIndex1 = 1}
   slides1[slideIndex1-1].style.display = "block";
   setTimeout(showSlides1, 3000); // Change image every 2 seconds
+}
+
+//--------------------------------------------
+let slideIndex2 = 0;
+showSlides2();
+
+function showSlides2() {
+  let i;
+  let slides2 = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < slides2.length; i++) {
+    slides2[i].style.display = "none";
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides2.length) {slideIndex2 = 1}
+  slides2[slideIndex2-1].style.display = "block";
+  setTimeout(showSlides2, 3000); // Change image every 2 seconds
 }
     </script>
 
